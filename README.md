@@ -1,0 +1,3 @@
+# get_so_from_aar
+遍历aar获取所有so文件
+通过遍历module缓存目录拿到又有的aar文件，通过zipfile获取aar内部文件信息，找出里面使用到的so文件。
